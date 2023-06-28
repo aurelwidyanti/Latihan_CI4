@@ -1,0 +1,43 @@
+CRITICAL - 2023-06-12 13:21:29 --> Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Page.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 13:22:28 --> Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Page.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 13:23:24 --> Call to undefined function App\Controllers\ProdukModel()
+in APPPATH\Controllers\Page.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 13:23:47 --> Undefined variable $ProdukModel
+in APPPATH\Controllers\Page.php on line 15.
+ 1 APPPATH\Controllers\Page.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ProdukModel', 'C:\\xampp\\htdocs\\latihan_ci4\\app\\Controllers\\Page.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 13:24:55 --> Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Page.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 13:26:38 --> Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Page.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 13:26:39 --> Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Page.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

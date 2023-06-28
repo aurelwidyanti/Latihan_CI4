@@ -1,0 +1,6 @@
+CRITICAL - 2023-06-13 09:06:54 --> Class "App\Controllers\ProdukModel" not found
+in APPPATH\Controllers\Page.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
