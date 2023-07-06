@@ -35,6 +35,8 @@ $routes->add('/login', 'AuthController::login');
 $routes->get('/logout', 'AuthController::logout');
 
 //Register Routes
+$routes->get('/verify', 'AuthController::verifyCode');
+$routes->post('/verify', 'AuthController::verifyCode');
 $routes->get('/register', 'AuthController::register');
 $routes->post('/register', 'AuthController::register');
 
@@ -60,6 +62,10 @@ $routes->get('/user', 'UserController::index', ['filter' => 'auth']);
 $routes->add('/user', 'UserController::create', ['filter' => 'auth']);
 $routes->add('/user/edit/(:any)', 'UserController::edit/$1', ['filter' => 'auth']);
 $routes->get('/user/delete/(:any)', 'UserController::delete/$1', ['filter' => 'auth']);
+
+//StatusKirim Routes
+$routes->get('/transaksi', 'StatusKirimController::index', ['filter' => 'auth']);
+$routes->add('/transaksi/edit/(:any)', 'StatusKirimController::edit/$1', ['filter' => 'auth']);
 
 /*
  * --------------------------------------------------------------------

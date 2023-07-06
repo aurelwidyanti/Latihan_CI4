@@ -18,6 +18,7 @@ if (session()->getFlashData('success')) {
             echo form_hidden('id', $produk['id']);
             echo form_hidden('nama', $produk['nama']);
             echo form_hidden('hrg', $produk['hrg']);
+            //
             echo form_hidden('foto', $produk['foto']);
             ?>
             <div class="card">

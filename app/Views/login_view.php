@@ -28,10 +28,23 @@ $password = [
                         </div>
 
                         <?php
+                        if (session()->getFlashData('success')) {
+                        ?>
+                            <div class="col-12 alert alert-success" role="alert">
+                            
+                                <p class="mb-0">
+                                    <?= session()->getFlashData('success') ?>
+                                </p>
+                            </div>
+                        <?php
+                        }
+                        ?>
+
+                        <?php
                         if (session()->getFlashData('failed')) {
                         ?>
                             <div class="col-12 alert alert-danger" role="alert">
-                                <hr>
+                             
                                 <p class="mb-0">
                                     <?= session()->getFlashData('failed') ?>
                                 </p>

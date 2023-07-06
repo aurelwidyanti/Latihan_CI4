@@ -36,6 +36,13 @@
                         <div class="invalid-feedback">Please choose your username.</div>
                       </div>
                     </div>
+                    <div class="col-12">
+                      <label for="email" class="form-label">Email</label>
+                      <div class="input-group has-validation">
+                        <input type="email" name="email" class="form-control" id="email" required>
+                        <div class="invalid-feedback">Enter your email please.</div>
+                      </div>
+                    </div>
 
                     <div class="col-12">
                       <label for="password" class="form-label">Password</label>

@@ -7,6 +7,6 @@
 		    protected $table = 'user'; 
 		    protected $primaryKey = 'id';
 		    protected $allowedFields = [
-		        'username','role', 'password','is_active'
+		        'username','role', 'email', 'code', 'password','is_active'
 		    ];  
 		}
